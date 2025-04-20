@@ -8,10 +8,7 @@ public class CharacterOccurrence {
         System.out.println("Enter your word or sentence:");
 
         // Read the full line, convert to lowercase, and remove everything except letters a-z
-        String sentence = new Scanner(System.in)
-                .nextLine()
-                .toLowerCase()
-                .replaceAll("[^a-z]", "");  // Remove all non-alphabetic characters
+        String sentence = new Scanner(System.in).nextLine().toLowerCase().replaceAll("[^a-z]", "");  // Remove all non-alphabetic characters
 
         // Create a HashMap to store each character and its number of occurrences
         HashMap<Character, Integer> occurrence = new HashMap<>();
