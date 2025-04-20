@@ -14,7 +14,7 @@ public class FactorialRecursive {
         }
         else {
             // If valid input, call the factorial method and print the result
-            System.out.println(number + "! is " + factorial(number));
+            System.out.println(number + "! is  " + factorial(number));
         }
     }
     // Recursive method to calculate factorial of a number
